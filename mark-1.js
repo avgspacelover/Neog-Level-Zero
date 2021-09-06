@@ -97,3 +97,29 @@ for(var i=0;i<=(list.length-1); i++){
     console.log(list[i]);
 }
 
+// EX-12
+
+var batman={
+    superpower: "stealth",
+    strength: 500,
+    speed: 800,
+    agility: 950,
+
+}
+var superman={
+    superpower: "laser eyes",
+    strength: 990,
+    speed: 1000,
+    agility: 360,
+
+}
+console.log(batman.agility);
+console.log(superman.speed);
+console.log(superman.strength > batman.strength);
+
+//Ex-13
+
+ques1 = {
+    question: "Who is my favorite superhero?",
+    ans: "Dhruv",
+  }
