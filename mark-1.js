@@ -117,9 +117,72 @@ console.log(batman.agility);
 console.log(superman.speed);
 console.log(superman.strength > batman.strength);
 
-//Ex-13
-
-ques1 = {
+//Ex-13,14 & 15
+var quespool=[{
     question: "Who is my favorite superhero?",
-    ans: "Dhruv",
-  }
+    ans: "Batman"
+  }, {
+    question: "Who is my favorite director?",
+    ans: "christopher nolan"
+  }, {
+    question: "Whats is my favorite TV Show?",
+    ans: "brooklyn nine-nine"
+  }, {
+    question: "Whats is my favorite movie?",
+    ans: "Interstellar"
+  }, {
+    question: "Whats is my favourite dish?",
+    ans: "kheer"
+  },  {
+    question: "Whats is my favourite sport?",
+    ans: "football"
+  },{
+    question: "Who is my favorite sportsperson?",
+    ans: "rafael nadal"
+  }, {
+    question: "Who is my favorite music artist",
+    ans: "ajr"
+  }];
+
+//EX-14
+
+
+var countit=0;
+
+for (var i=0; i<questionlist.length ;i++){
+    var ques= quespool[i].question;
+    var answ= quespool[i].ans;
+
+
+     function quizxx(ques,answ){
+        
+        var userans=readlineSync.question(ques);
+        if(userans.toLowerCase==answ){
+            countit++;
+            console.log("Correct!\nScore(till now): "+ countit);
+    
+        } else {
+            countit--;
+            console.log("Wrong!\nScore(till now): "+ countit);
+        }
+    
+    
+    
+    }
+
+}
+var highscore= [];
+var max=0;
+
+for (var i=0; i<highscore.length;i++){
+    if (highscore[i]>max){
+        max=highscore[i];
+    }
+}
+
+if(countit>max){
+    console.log("Congrats, you set the high score!");
+}
+
+
+highscore.push(countit); 
