@@ -33,24 +33,33 @@
     <h2>Container</h2>
 
     <h3>fluid container</h3>
-    <div> This is a fluid Container,flows till end of page</div>
+    <div class="container"> This is a fluid Container,flows till end of page</div>
  
     <h3>center container</h3>
-    <div>This is a  centered container and it will go till speficied width</div>
+    <div class="container  container-center">This is a  centered container and it will go till speficied width</div>
 
     <h2>Links</h2>
 
-    <a href="#">Primary Link</a>
+    <a href="#" class="link primary-link">Primary Link</a>
 
-    <a href="#">Secondary Link</a>
+    <a href="#" class="link secondary-link">Secondary Link</a>
 
     <hr>
     <h2>Lists</h2>
+    <h3>unordered list</h3>
+    <p>non-bullet list</p>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item 1</li>
+        <li class="list-item-inline">Item 2</li>
+        <li class="list-item-inline">Item 3</li>
+    </ul>
 
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item 1</li>
+        <li class="list-item-inline">Item 2</li>
+        <li class="list-item-inline">Item 3</li>
     </ul>
 
     <ol>
@@ -68,18 +77,18 @@
     </ol>
     <h2>Navigation</h2>
 
-    <nav>
-        <div>I am brand</div>
+    <nav class="navigation container">
+        <div class="nav-brand">Antariksh</div>
 
-        <ul>
-            <li>
-                <a href="#">Home</a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="#">Home</a>
             </li>
-            <li>
-                <a href="#">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="#">Products</a>
             </li>
-            <li>
-                <a href="#">Blog</a>
+            <li class="list-item-inline">
+                <a class="link" href="#">Blog</a>
             </li>
 
         </ul>
@@ -88,22 +97,26 @@
     <hr>
 
     <h2>Header</h2>
-    <header>
-        <img src="undraw_Astronaut_re_8c33.svg">
-        <h1>header inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="undraw_Astronaut_re_8c33.svg">
+        <h1 class="hero-heading">Mangal Yatri| <span class="heading-inverted">Web Developer</span></h1>
     </header>
-    <h2>White Section</h2>
+    <h2>Section</h2>
     <p>This will go end to end with some margin</p>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white section</p>
+    <section class="section">
+      <div class="container container-center">
+         <h3>white section</h3>
+         <p>This will have white section</p>
+      </div>
 
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have off white section</p>
+    <section class="sectionow">
+       <div class="container container-center">
+          <h3>off white section</h3>
+          <p>This will have off white section</p>
+       </div>
 
     </section>
 
@@ -114,15 +127,15 @@
     <footer>
         <div>Some small heading inside footer</div>
 
-        <ul>
+        <ul class="social-links list-non-bullet">
 
-            <li>
-                <a href="#">social 1</a>                
+            <li >
+                <a class="link" href="#">Github</a>                
 
             </li>
 
-            <li>
-                <a href="#">social 2</a>               
+            <li >
+                <a class="link" href="#">twitter</a>               
 
             </li>
             
