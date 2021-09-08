@@ -22,20 +22,31 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 100%;
+    text-align: center;
 }
-.container-center{
+.container-center,{
     max-width: 600px;
     margin:auto;
 }
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: auto;
 }
 
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem 1rem;
     color:white;
+    width: 50%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
 }
 
 .secondary-link{
@@ -44,6 +55,9 @@ hr{
     border: 1px solid var(--primary-color);
     color: white;
     background-color: var(--primary-color);
+    margin: auto;
+    
+    
     
 }
 /* BEM naming technique */
@@ -61,7 +75,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 2.5rem 4rem 2.5rem 4rem;
+    border-radius: 0rem 1rem 3rem 1rem;
 
 }
 
@@ -100,6 +114,8 @@ hr{
 .hero .hero-heading{
     color: var(--dark-gray);
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .hero .hero-heading .heading-inverted{
@@ -125,12 +141,17 @@ footer{
     padding: 2rem 1rem;
     color:white;
     text-align: center;
+    font-weight: bold;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
 }
 
 .social-links .link{
     font-weight: bold;
     color: white;
-
+    
 }
 
 footer ul{
