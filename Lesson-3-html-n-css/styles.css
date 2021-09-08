@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat',sans-serif;
     background-color: 	#EBECF0;
     color: var(--dark-gray);
+    margin:0px;
 }
 
 
@@ -117,4 +118,21 @@ section h3,section p{
 .sectionow{
     background-color: var(--off-white);
 
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color:white;
+    text-align: center;
+}
+
+.social-links .link{
+    font-weight: bold;
+    color: white;
+
+}
+
+footer ul{
+    padding-inline-start: 0px;
 }
