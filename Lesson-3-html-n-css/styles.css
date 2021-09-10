@@ -25,7 +25,7 @@ hr{
     width: 100%;
     text-align: center;
 }
-.container-center,{
+.container-center{
     max-width: 600px;
     margin:auto;
 }
@@ -39,10 +39,7 @@ hr{
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem 1rem;
-    color:white;
-    
-    
-    
+    color:white;   
     
     
 }
