@@ -3,11 +3,13 @@
 
 var translatebtn= document.querySelector("#translatebtn");
 var input= document.querySelector("#text-input");
+var output= document.querySelector("#output");
+
+
 
 translatebtn.addEventListener("click", function clickevent(){
-    console.log("clicked");
-    console.log("input",input.value)
-})
-
+    console.log("ok");
+    output.innerText="Language:"+ input.value;
+});
 
 

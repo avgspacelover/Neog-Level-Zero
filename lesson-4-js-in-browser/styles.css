@@ -17,7 +17,7 @@ body{
     
 }
 
-h1,h4,p{
+h1,h4,p,div{
     display: flex;
     justify-content: center;
 }
@@ -32,9 +32,9 @@ section{
 
 
 
-#text, #output{
+#text-input, #output{
     width: 500px;
-    height: 30vh;
+    height: 20vh;
     
     color:#D4ECDD;
     background-color: #112031;
@@ -44,6 +44,7 @@ section{
     
 
 }
+
 
 ::placeholder { 
     color: #D4ECDD;
