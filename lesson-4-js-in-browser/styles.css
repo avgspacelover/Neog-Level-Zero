@@ -44,6 +44,12 @@ section{
     
 
 }
+
+::placeholder { 
+    color: #D4ECDD;
+    font-weight: bold;
+    text-align: center;
+  }
 button{
     padding: 20px;
     display: flex;
