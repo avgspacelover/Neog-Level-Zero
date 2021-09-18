@@ -3,13 +3,16 @@ body{
     color: #D4ECDD;
     background-color: #345B63;
     
+    
 }
 
 #nav-bar{
     background-color: #112031;
     width: 100%;
     color: #D4ECDD;
-    padding: 20px;
+    display: inline-block;
+    
+    padding: 30px;
     border-radius: 0px 0px 40px 0px;
     
 }
@@ -18,6 +21,12 @@ h1,h4,p{
     display: flex;
     justify-content: center;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 
 
 
@@ -25,10 +34,13 @@ h1,h4,p{
 
 #text, #output{
     width: 500px;
-    height: 40vh;
+    height: 30vh;
     
     color:#D4ECDD;
     background-color: #112031;
+    border-radius: 15px 15px 15px 15px;
+    border-color: #D4ECDD;
+    border-width: 5px;
     
 
 }
@@ -36,6 +48,13 @@ button{
     padding: 20px;
     display: flex;
     justify-content: center;
+    background-color:#112031 ;
+    color: #D4ECDD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #D4ECDD;
+    border-width: 5px;
 }
 
 
@@ -46,6 +65,7 @@ a{
 }
 h3{
     text-align: center;
+    
 }
 
 #footer{
