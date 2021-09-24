@@ -17,9 +17,13 @@ body{
     
 }
 
-h1,h4,p,div{
+h1,h4,p{
     display: flex;
     justify-content: center;
+    
+}
+div{
+    margin: auto;
 }
 section{
     display: flex;
@@ -38,8 +42,9 @@ section{
     
     color:#D4ECDD;
     background-color: #112031;
+    border:5px solid #D4ECDD;
     border-radius: 15px 15px 15px 15px;
-    border-color: #D4ECDD;
+    border-color:#D4ECDD ;
     border-width: 5px;
     
 
@@ -59,7 +64,7 @@ button{
     color: #D4ECDD;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px;
     border-color: #D4ECDD;
     border-width: 5px;
 }

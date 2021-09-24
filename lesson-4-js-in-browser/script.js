@@ -1,15 +1,19 @@
-// https://replit.com/@tanaypratap/lessonfourapi
+// https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json
 
 
 var translatebtn= document.querySelector("#translatebtn");
 var input= document.querySelector("#text-input");
 var output= document.querySelector("#output");
+//
 
-
-
-translatebtn.addEventListener("click", function clickevent(){
+function clickevent(){
     console.log("ok");
-    output.innerText="Language:"+ input.value;
-});
+    output.innerText=" Language: "+ input.value;
+    
+}
+
+
+
+translatebtn.addEventListener("click", clickevent);
 
 
