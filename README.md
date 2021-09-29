@@ -1,4 +1,4 @@
-# Neog-Level-Zero
+# Neog-Level-Zero => Guide
 
 <b>15 point system:</b> https://neog.camp/qualifier/point-system
 
@@ -10,7 +10,7 @@ Guide 3:<br>
 <hr>
 Guide 4: https://neog.camp/guide/lesson-four <br>
 <hr>
-Guide 5:<br>
+Guide 5:https://neog.camp/guide/lesson-five <br>
 <hr>
 Guide 6:<br>
 <hr>
@@ -27,18 +27,19 @@ Guide 11:<br>
 Guide 12:<br>
 <hr>
 
-Miscellaneous: https://github.com/tanaypratap/teamtanay.jobchallenge.dev/issues/232
+Miscellaneous:<br>
+ https://github.com/tanaypratap/teamtanay.jobchallenge.dev/issues/232 <br>
 
-https://www.javatpoint.com/innertext-vs-innerhtml
+https://www.javatpoint.com/innertext-vs-innerhtml <br>
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP
+https://developer.mozilla.org/en-US/docs/Web/HTTP <br>
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods <br>
 
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API <br>
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions <br>
 
-https://replit.com/@tanaypratap/lessonfourapi
+https://replit.com/@tanaypratap/lessonfourapi <br>
 
-https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe
+https://stackoverflow.com/questions/43871637/ no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe <br>
