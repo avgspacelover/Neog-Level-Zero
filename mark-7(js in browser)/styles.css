@@ -20,9 +20,9 @@ body{
 }
 
 #nav-bar{
-    background-color: var(--mildgreen);
+    background-color: var(--white);
     width: 100%;
-    color: var(--white);
+    color: var(--mildgreen);
     display: inline-block;
     
     padding: 30px;
@@ -85,7 +85,7 @@ button{
 
 a{
     text-decoration: none;
-    color: var(--white);   
+    color: var(--mildgreen); 
     
 }
 h3{
@@ -94,7 +94,8 @@ h3{
 }
 
 #footer{
-    background-color: var(--mildgreen);
+    background-color: var(--white);
+    color: var(--mildgreen);
     padding: 50px;
     width: 100%;
     
