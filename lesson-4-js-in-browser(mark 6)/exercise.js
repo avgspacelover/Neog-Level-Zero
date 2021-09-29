@@ -40,3 +40,35 @@ translatebtn.addEventListener("click", function clickevent(){
     console.log("clicked");
     console.log("input",input.value);
 })
+
+var url ="";
+
+function miniontranslate(text){
+    return url + "?" + "text=" + text
+}
+
+
+
+
+var url =" https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+
+function miniontranslate(text){
+    return url + "?" + "text=" + text;
+}
+//
+
+function errorhandle(){
+    console.log("error occured", error);
+    alert("server issues, try again in some time");
+}
+
+function clickevent(){
+    console.log("ok");
+    var textq= input.value;
+    fetch(miniontranslate(textq))
+      .then(response => response.json())
+      .then(json => console.log(json.contents.translated))
+      .catch(errorhandle)
+    
+    
+}

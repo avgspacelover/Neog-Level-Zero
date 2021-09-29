@@ -28,3 +28,17 @@ Guide 12:<br>
 <hr>
 
 Miscellaneous: https://github.com/tanaypratap/teamtanay.jobchallenge.dev/issues/232
+
+https://www.javatpoint.com/innertext-vs-innerhtml
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+https://replit.com/@tanaypratap/lessonfourapi
+
+https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe
