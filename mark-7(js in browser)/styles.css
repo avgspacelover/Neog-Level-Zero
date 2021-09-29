@@ -1,15 +1,28 @@
+
+:root {
+    --white: #E7E6E1;
+    --offwhite: #F7F6E7;
+    --lightorange: #F2A154;
+    --mildgreen: #314E52;
+  }
+
+
+
+
+
+
 body{
     font-family: 'Montserrat',sans-serif;
-    color: #D4ECDD;
-    background-color: #345B63;
+    color: var(--white);
+    background-color: var(--lightorange);
     
     
 }
 
 #nav-bar{
-    background-color: #112031;
+    background-color: var(--mildgreen);
     width: 100%;
-    color: #D4ECDD;
+    color: var(--white);
     display: inline-block;
     
     padding: 30px;
@@ -40,11 +53,11 @@ section{
     width: 500px;
     height: 20vh;
     
-    color:#D4ECDD;
-    background-color: #112031;
-    border:5px solid #D4ECDD;
+    color:var(--white);
+    background-color: var(--mildgreen);
+    border:5px solid var(--white);
     border-radius: 15px 15px 15px 15px;
-    border-color:#D4ECDD ;
+    border-color:var(--white) ;
     border-width: 5px;
     
 
@@ -52,7 +65,7 @@ section{
 
 
 ::placeholder { 
-    color: #D4ECDD;
+    color: var(--white);
     font-weight: bold;
     text-align: center;
   }
@@ -60,19 +73,19 @@ button{
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-color:#112031 ;
-    color: #D4ECDD;
+    background-color:var(--mildgreen) ;
+    color: var(--white);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     border-radius: 25px;
-    border-color: #D4ECDD;
+    border-color: var(--white);
     border-width: 5px;
 }
 
 
 a{
     text-decoration: none;
-    color: #D4ECDD;   
+    color: var(--white);   
     
 }
 h3{
@@ -81,7 +94,7 @@ h3{
 }
 
 #footer{
-    background-color: #152D35;
+    background-color: var(--mildgreen);
     padding: 50px;
     width: 100%;
     
