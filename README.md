@@ -2,25 +2,25 @@
 
 <b>15 point system:</b> https://neog.camp/qualifier/point-system
 
-Guide 1:<br>
+Guide 1: https://neog.camp/guide/lesson-one<br>
 <hr>
-Guide 2:<br>
+Guide 2: https://neog.camp/guide/lesson-two<br>
 <hr>
-Guide 3:<br>
+Guide 3: https://neog.camp/guide/lesson-three<br>
 <hr>
 Guide 4: https://neog.camp/guide/lesson-four <br>
 <hr>
-Guide 5:https://neog.camp/guide/lesson-five <br>
+Guide 5: https://neog.camp/guide/lesson-five <br>
 <hr>
-Guide 6:<br>
+Guide 6: https://neog.camp/guide/mark-10 <br>
 <hr>
-Guide 7:<br>
+Guide 7: https://neog.camp/guide/mark-11<br>
 <hr>
-Guide 8:<br>
+Guide 8: https://neog.camp/guide/mark-12 <br>
 <hr>
-Guide 9:<br>
+Guide 9: https://neog.camp/guide/mark-13 <br>
 <hr>
-Guide 10:<br>
+Guide 10: https://neog.camp/guide/mark-14 <br>
 <hr>
 Guide 11:<br>
 <hr>
