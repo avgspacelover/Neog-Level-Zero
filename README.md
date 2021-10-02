@@ -1,6 +1,6 @@
 # Neog-Level-Zero => Guide
 
-<b>15 point system:</b> https://neog.camp/qualifier/point-system
+<b>15 point system:</b> https://neog.camp/qualifier/portfolio || https://neog.camp/qualifier/point-system
 
 Guide 1: https://neog.camp/guide/lesson-one<br>
 <hr>
