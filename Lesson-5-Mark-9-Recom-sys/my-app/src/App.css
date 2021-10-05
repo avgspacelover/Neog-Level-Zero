@@ -44,6 +44,19 @@ input {
 }
 
 #theme{
+
   width:60%;
   margin:auto;
+}
+
+#nav{
+  display: flex;
+  width:60%;
+  margin:auto;
+
+}
+
+li{
+  list-style: none;
+  display: inline;
 }

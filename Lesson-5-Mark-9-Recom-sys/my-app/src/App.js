@@ -82,14 +82,17 @@ export default function App() {
          <h1>Themes</h1>
          <hr/>
        </div>
-       <nav>
+       <nav id="nav">
          <ul>
-           
+
            <li>
+             hello
 
            </li>
+           fuck
 
            <li>
+             you
 
            </li>
 
