@@ -1,42 +1,43 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
+//, { useState }
 
-var emojiDictionary = {
-  "😊": "smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "🥡": "takeout box",
-  "❤️": "love",
-  "😑": "annoyance"
-};
+// var emojiDictionary = {
+//   "😊": "smiling",
+//   "😳": "disbelief",
+//   "😔": "sad",
+//   "🥡": "takeout box",
+//   "❤️": "love",
+//   "😑": "annoyance"
+// };
 
-var emojiLib = Object.keys(emojiDictionary);
+// var emojiLib = Object.keys(emojiDictionary);
 
 export default function App() {
-  const [meaning, setMeaning] = useState("");
+  // const [meaning, setMeaning] = useState("");
 
-  var heading = "Emoji Pedia";
+  // var heading = "Emoji Pedia";
 
-  function emojiInteract(event) {
-    var userInput = event.target.value;
+  // function emojiInteract(event) {
+  //   var userInput = event.target.value;
 
-    var meaning = emojiDictionary[userInput];
+  //   var meaning = emojiDictionary[userInput];
 
-    if (meaning === undefined) {
-      meaning = "Unavailable in the database :(";
-    }
-    setMeaning(meaning);
-  }
+  //   if (meaning === undefined) {
+  //     meaning = "Unavailable in the database :(";
+  //   }
+  //   setMeaning(meaning);
+  // }
 
-  function emojiClickHandle(emoji) {
-    var meaning = emojiDictionary[emoji];
-    console.log(emoji);
-    setMeaning(meaning);
-  }
+  // function emojiClickHandle(emoji) {
+  //   var meaning = emojiDictionary[emoji];
+  //   console.log(emoji);
+  //   setMeaning(meaning);
+  // }
 
   return (
     <div className="Emoji-App">
-      <h1>{heading}</h1>
+      {/* <h1>{heading}</h1>
 
       <h4> Welcome to Emoji Translation DB!</h4>
       <br />
@@ -68,6 +69,25 @@ export default function App() {
           </span>
         );
       })}
+       */}
+
+       <div id="flap">
+         <span id="head-text">TED</span>
+         <span id="head-text-2">Recommended Talks</span>
+
+           
+             
+       </div>
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

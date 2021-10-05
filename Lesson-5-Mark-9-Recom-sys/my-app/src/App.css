@@ -1,5 +1,5 @@
 .Emoji-App {
-  font-family: sans-serif;
+  font-family: 'Montserrat',sans-serif;
   text-align: center;
 }
 
@@ -11,4 +11,34 @@ input {
   color: red;
   font-weight: bold;
   width: 50%;
+}
+
+#flap{
+  background-color: black;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#head-text {
+  font-family: Helvetica;
+  display: flex;
+  font-weight: 900;
+  font-size: 55px;
+  color: #e62b1e;
+  text-align: left;
+  margin-left: 25px;
+
+
+}
+#head-text-2 {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  margin: auto 25px auto auto;
+
+
 }
