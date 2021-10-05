@@ -78,6 +78,27 @@ export default function App() {
            
              
        </div>
+       <div id="theme">
+         <h1>Themes</h1>
+         <hr/>
+       </div>
+       <nav>
+         <ul>
+           
+           <li>
+
+           </li>
+
+           <li>
+
+           </li>
+
+           <li>
+
+           </li>
+
+          </ul>
+       </nav>
 
 
 
