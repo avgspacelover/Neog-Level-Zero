@@ -1,6 +1,17 @@
+:root{
+
+  --mildgrey: #30475E;
+  
+}
+
+
+
+
+
 .Emoji-App {
   font-family: 'Montserrat',sans-serif;
   text-align: center;
+  
 }
 
 input {
@@ -47,16 +58,39 @@ input {
 
   width:60%;
   margin:auto;
+  color: var(--mildgrey);
+  font-family: 'Montserrat',sans-serif;
 }
 
 #nav{
   display: flex;
   width:60%;
-  margin:auto;
+  margin:auto; 
+  
 
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  /* margin-left: 200px;   */
+  justify-content: space-between;  
+  width: 60%;
+  padding-left: 0%;
+  align-items: center;
+  
 }
 
 li{
   list-style: none;
-  display: inline;
+  color: white;  
+  background-color: var(--mildgrey);
+  font-weight: bolder;
+  font-family: 'Montserrat',sans-serif;
+  padding: 2% 5% 2% 5%;
+  border: 4px solid var(--mildgrey);
+  border-radius: 2.5rem;
+  margin-right: 65px; 
+  /*margin-left: 0%; */
+  border-color: var(--mildgrey);
 }

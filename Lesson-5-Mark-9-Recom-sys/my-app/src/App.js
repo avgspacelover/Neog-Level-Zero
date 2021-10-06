@@ -83,25 +83,34 @@ export default function App() {
          <hr/>
        </div>
        <nav id="nav">
-         <ul>
+          <ul>
 
            <li>
-             hello
+             Productivity
 
-           </li>
-           fuck
+            </li>
 
-           <li>
-             you
+            <li>
+             Depression
 
-           </li>
+            </li>
 
-           <li>
+            <li>
+             Aesthetics
 
-           </li>
+            </li>
+            
+            <li>
+             Entrepreneurship            
+
+            </li>
 
           </ul>
+          
+
        </nav>
+
+       
 
 
 
