@@ -2,13 +2,40 @@ import React from "react";
 import "./App.css";
 //, { useState }
 
-// var emojiDictionary = {
-//   "😊": "smiling",
-//   "😳": "disbelief",
-//   "😔": "sad",
-//   "🥡": "takeout box",
-//   "❤️": "love",
-//   "😑": "annoyance"
+// const tedTalks = {
+//   productivity: [
+//     { name: "Eloquent JavaScript"
+//     },
+//     { name: "You Don't Know JS"
+//     }
+//   ],
+
+//   depression: [
+//     {
+//       name: "Shiva Trilogy"
+//     },
+//     {
+//       name: "Harry Potter and the Sorcerer's Stone"
+//     }
+//   ],
+//   Aesthetics: [
+//     {
+//       name: "Never Split the Difference"
+//     },
+//     {
+//       name: "Loonshots",
+//       rating: "5/5"
+//     }
+//   ],
+//   Entrepreneurship: [
+//     {
+//       name: "Never Split the Difference"
+      
+//     },
+//     {
+//       name: "Loonshots"
+//     }
+//   ]
 // };
 
 // var emojiLib = Object.keys(emojiDictionary);
@@ -35,28 +62,21 @@ export default function App() {
   //   setMeaning(meaning);
   // }
 
+  function listInteract(theme){
+    console.log(theme);
+  }
+
   return (
     <div className="Emoji-App">
-      {/* <h1>{heading}</h1>
+      {/* 
 
-      <h4> Welcome to Emoji Translation DB!</h4>
-      <br />
+      
 
-      <h5>
-        Enter the Emoji to see it's meaning <br /> or <br />
-        Hover over the palette below
-      </h5>
-
-      <br />
-
-      <input onChange={emojiInteract} />
+      
 
       <h2 style={{ fontWeight: "bold" }}> {meaning}</h2>
 
-      <br />
-
-      <h3> Emoji Database </h3>
-      <br />
+      
 
       {emojiLib.map(function (emoji) {
         return (
@@ -85,7 +105,7 @@ export default function App() {
        <nav id="nav">
           <ul>
 
-           <li>
+           <li onClick={listInteract}>
              Productivity
 
             </li>
@@ -108,7 +128,11 @@ export default function App() {
           </ul>
           
 
-       </nav>
+        </nav>
+        <div id-="lists">
+          <hr/>
+        
+        </div>
 
        
 
