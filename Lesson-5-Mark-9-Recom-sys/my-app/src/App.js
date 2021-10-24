@@ -4,36 +4,40 @@ import "./App.css";
 
 // const tedTalks = {
 //   productivity: [
-//     { name: "Eloquent JavaScript"
+//     { name: "How to Get Your Brain to Focus"
 //     },
-//     { name: "You Don't Know JS"
+//     { name: "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU"
+//     },
+//     { name: "The Secret of Becoming Mentally Strong | Amy Morin | TEDxOcala"
+//     },
+//     { name: "Why We Fear And Hold Back From What We Want | Stuti Singh | TEDxSevenoaks"
+//     },
+//     { name: "Inside the mind of a master procrastinator | Tim Urban"
 //     }
 //   ],
 
 //   depression: [
-//     {
-//       name: "Shiva Trilogy"
+//     { name: "I Am Depressed | Dianna Paige | TEDxAllendaleColumbiaSchool"
 //     },
-//     {
-//       name: "Harry Potter and the Sorcerer's Stone"
+//     { name: "This could be why you're depressed or anxious | Johann Hari"
+//     },
+//     { name: "Lift Depression With These 3 Prescriptions- Without-Pills | Susan Heitler | TEDxWilmington"
 //     }
 //   ],
-//   Aesthetics: [
-//     {
-//       name: "Never Split the Difference"
+//   aesthetics: [
+//     { name: "Looks aren't everything. Believe me, I'm a model. | Cameron Russell"
 //     },
-//     {
-//       name: "Loonshots",
-//       rating: "5/5"
+//     { name: "What makes you special? | Mariana Atencio | TEDxUniversityofNevada "
+//     },
+//     { name: "Why You Think You're Ugly | Melissa Butler | TEDxDetroit"
 //     }
 //   ],
-//   Entrepreneurship: [
-//     {
-//       name: "Never Split the Difference"
-      
+//   entrepreneurship: [
+//     { name: "Entrepreneurship As A State Of Mind | Mr. Ankur Warikoo | TEDxSBSC"
 //     },
-//     {
-//       name: "Loonshots"
+//     { name: "How I became the youngest entrepreneur | Tilak Mehta | TEDxGSMC"
+//     },
+//     { name: "What they don't tell you about entrepreneurship | Mark Leruste | TEDxCardiff"
 //     }
 //   ]
 // };
@@ -104,24 +108,43 @@ export default function App() {
        </div>
        <nav id="nav">
           <ul>
+          
 
-           <li onClick={listInteract}>
-             Productivity
+           <li>
+              <button onClick={listInteract}>
+             
+                Productivity
+
+              </button>
+             
+
+            </li>
+            
+
+            <li>
+              <button onClick={listInteract}>
+
+                Depression
+
+              </button>
 
             </li>
 
             <li>
-             Depression
+              <button onClick={listInteract}>
 
-            </li>
+               Aesthetics
 
-            <li>
-             Aesthetics
+              </button>
 
             </li>
             
             <li>
-             Entrepreneurship            
+              <button onClick={listInteract}>
+
+                Entrepreneurship 
+                
+              </button>           
 
             </li>
 
