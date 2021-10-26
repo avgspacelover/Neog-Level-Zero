@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    
+
+    <link href="styles.css" rel="stylesheet">
+    
+    
+
+    <title>Cash Register</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="header">Cash Register Manager</h1>
+        <p class="description">
+
+            Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+        
+        <label for="bill-amt"> Bill Amount:</label>
+        <input id="bill-amt" type="text" />
+    </br>
+        <label for="cash-given"> Cash Given</label>
+        <input id="cash-given" type="text" />
+
+        <button id="check">Check</button>
+        
+        <p id="error-message"></p>
+        
+        <table class="change-table">
+            <caption>
+                Return Change
+            </caption>
+    
+            <tr>
+                <th>No of Notes</th>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        
+        
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

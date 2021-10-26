@@ -1,0 +1,12 @@
+body{
+    font-family: Montserrat,sans-serif;
+    margin-left: 40px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
