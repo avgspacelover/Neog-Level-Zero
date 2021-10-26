@@ -3,10 +3,90 @@ body{
     margin-left: 40px;
 
 }
+.header{
+    margin: auto;
+    color: #112031;
+}
 
 .container{
     display: flex;
     flex-direction: column;
     width: 80vw;
+    background-color: #D4ECDD;
+}
+label{
+    margin: auto;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #152D35;
+    font-size: 20px;
+    
 }
 
+#bill-amt, #cash-given{
+    
+    margin: auto;
+    width: 20rem;
+    height: 2.5rem;
+    border: 0.1rem solid #212121;
+    
+    border-radius: 0.75rem;
+    border-width: 0.25rem;
+    background-color: #D9CAB3;
+    margin-bottom: 1.5rem;
+    color:#152D35;
+    font-weight: bold;
+
+}
+
+#check{
+    margin: auto;
+    width:10rem;
+    padding: 1.25rem;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 2.5rem;
+    border-width: 0.75rem;
+    background-color: #345B63;
+    color: white;
+
+}
+p{
+    margin: auto;
+    font-weight: bolder;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #212121;
+}
+
+table, th, td {
+    font-weight: bold;
+    margin:auto;
+    border-width: 1.5rem;
+    margin-top: 5rem;
+    width: 2rem;
+    border-spacing: 15px;
+    padding: 20px;
+    
+    border: 1px solid #152D35;
+    border-collapse: collapse;
+    table-layout:fixed;
+    text-align: center;
+
+  
+
+  }
+  tr
+{
+  line-height: 15px;
+  
+}
+
+  /* thead th:nth-child(1) {
+    width: 30%;
+  } */
+  
+  
+  
