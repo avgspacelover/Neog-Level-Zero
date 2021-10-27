@@ -1,0 +1,49 @@
+body{
+    font-family: Montserrat,sans-serif;
+    
+}
+
+h1{
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    width: 60%;
+    margin-left: 10rem;
+}
+
+label{
+    
+    text-align: center;
+    
+    font-weight: bolder;
+    
+    margin-bottom: 0.01rem;
+
+}
+
+input{
+    font-weight: bold;
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+}
+
+#check{
+    margin: auto;
+    width:10rem;
+    margin-top: 5rem ;
+    padding: .25rem;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 2.5rem;
+    border-width: 0.5rem;
+    /* background-color: ;
+    color: ;*/
+} 
