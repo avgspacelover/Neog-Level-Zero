@@ -4,19 +4,22 @@ body{
 }
 
 h1{
-    margin-left: 10rem;
+    margin: auto;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     
     
     
-    width: 60%;
-    margin-left: 10rem;
+    /*  */
+    /* margin-left: 10rem; */
 }
 
 label{
@@ -24,15 +27,23 @@ label{
     text-align: center;
     
     font-weight: bolder;
+
     
-    margin-bottom: 0.01rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 
 }
 
 input{
+    margin: auto;
     font-weight: bold;
     border: 0.25rem solid black;
     border-radius: 0.5rem;
+    width: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* width: 40%; */
 }
 
 #check{
