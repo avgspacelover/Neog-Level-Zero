@@ -1,33 +1,37 @@
  
- const quizForm = document.querySelector("#quiz-form");
+ const quizForm = document.querySelector(".quiz-form");
  
  const submitAnswerBtn = document.querySelector("#submit-btn");
 
- const output = document.querySelector("#output");
+//  const output = document.querySelector("#output");
 
- const correctAnswers = ["90°","Right angled"];
+//  const correctAnswers = ["90°","Right angled"];
 
 
- function calculateScore() {
+//  function calculateScore() {
 
-    let score = 0;
-    let index = 0;
+//     let score = 0;
+//     let index = 0;
 
-    const formResults = new FormData(quizForm);
+//     const formResults = new FormData(quizForm);
+
+//     console.log(formResults);
     
-    for( let value of formResults.values()){
+//     for( let value of formResults.values){
 
-        if(value == correctAnswers[index]){
-            score= score+1;
-        }
+//         console.log(formResults.value);
 
-        index++;
-    }
+//         if(value == correctAnswers[index]){
+//             score= score+1;
+//         }
 
-    output.innerText = "your score is" + score;
+//         index= index+1;
+//     }
 
- }
+//     output.innerText = "your score is" + score;
 
- submitAnswerBtn.addEventListener('click', calculateScore);
+//  }
+
+ submitAnswerBtn.addEventListener('click', calculateScore, console.log("clicked"));
 
 
