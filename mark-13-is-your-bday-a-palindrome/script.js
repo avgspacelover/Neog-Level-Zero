@@ -1,4 +1,59 @@
-function reversestring(str) {
+  
+  
+  
+  var bdate = document.querySelector("#birthday");
+
+  var output = document.querySelector("#output");
+
+  var palbtn=document.querySelector("#palindrome-btn");
+
+  palbtn.addEventListener('click', clickhandler);
+
+  function clickhandler(){
+
+    var bdayStr = bdate.value;
+
+
+    if(bdayStr != ''){
+
+        var listOfDates = bdayStr.split('-');
+
+        var date = {
+            day: Number(listOfDates[2]),
+            month: Number(listOfDates[1]),
+            year: Number(listOfDates[0])
+        };
+
+        var isitPalindrom= checkPalindromeForAllFormats(date);
+
+        if(isitPalindrom){
+            output.innerText = "Yay! Your Birthday is a Palindrome!"
+
+        } else{
+
+            var [ctr, nextDate] = getNextPalindromeDate(date);
+
+            output.innertext = "The Next Palindrom Date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${ctr} days."
+        }
+    }
+
+
+  }
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ function reversestring(str) {
     /*
     var listOfChars = str.split('');
     var reverselist = listOfChars.reverse();
@@ -10,16 +65,16 @@ function reversestring(str) {
 
     var reversedstr = str.split('').reverse().join();
 
-}
+ }
 
-function isPalindrome(str) {
+ function isPalindrome(str) {
 
     return ((reversestring(str)) == str)
-}
+ }
 
 
 
-function dateToString(date) {
+ function dateToString(date) {
 
     var dateStr = {
         day: '',
@@ -58,7 +113,7 @@ function dateToString(date) {
 
     }
 
-}
+ }
 
 var date = {
     day: 5,
@@ -66,7 +121,7 @@ var date = {
     year: 2020,
 }
 
-function getAllDateformats(date) {
+ function getAllDateformats(date) {
 
     var dateStr = dateToString(date);
 
@@ -78,10 +133,10 @@ function getAllDateformats(date) {
     var yymmdd = dateStr.year.slice(-2) + dateStr.month + dateStr.day;
 
     return [dmmyyyy, mddyyyy, yyyymmdd, ddmmyy, mmddyy, yymmdd];
-}
+ }
 
 
-function checkPalindromeForAllFormats(date) {
+ function checkPalindromeForAllFormats(date) {
 
     var lisOfPalindromes = getAllDateformats(date);
 
@@ -97,9 +152,9 @@ function checkPalindromeForAllFormats(date) {
 
     return isPalindrome;
 
-}
+ }
 
-function leapyear(year) {
+ function leapyear(year) {
 
     if (year % 400 == 0) {
         return true;
@@ -116,9 +171,9 @@ function leapyear(year) {
 
     return false;
 
-}
+ }
 
-function getNextDate(date) {
+ function getNextDate(date) {
 
     var day = date.day + 1;
     var month = date.month;
@@ -158,7 +213,28 @@ function getNextDate(date) {
     }
 
 
-}
+ }
+
+  function getNextPalindromeDate(date){
+
+    var ctr = 0;
+    var nextDate = getNextDate(date);
+
+    while(1){
+        ctr++;
+        var isPalind = checkPalindromeForAllFormats(nextDate);
+        if(isPalind){
+            break;
+        }
+
+        nextDate = getNextDate(nextDate);
+    }
+
+    return[ctr, nextDate];
+
+  }
+
+ 
 
 
 
