@@ -30,12 +30,67 @@ function reversestring(str){
         return true;
 
     } else{
-        
+
         return false;
     }
  }
+
+ if(date.month){
+     console.log("hey");
+ }
  
- 
+  function dateToString(date){
+
+    var dateStr = { day: '' , month: '' , year: ''};
+
+
+    if (date.day <10){
+        
+        dateStr.day = '0' + date.day;
+
+    } else{
+        
+        dateStr.day = date.day.toString();
+
+    }
+
+    if (date.month <10){
+        
+        dateStr.month = '0' + date.month;
+
+    } else{
+        
+        dateStr.month = date.month.toString();
+
+    }
+
+    if (date.year <10){
+        
+        dateStr.year = '0' + date.year;
+
+    } else{
+        
+        dateStr.year = date.year.toString();
+
+    }
+      
+    
+    
+      
+      
+
+    
+
+
+
+
+  }
+
+  var date={
+      day: '5',
+      month: "12",
+      year: "2020",
+  }
  
  
  
