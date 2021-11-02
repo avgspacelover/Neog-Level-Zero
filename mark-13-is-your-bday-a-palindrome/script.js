@@ -1,4 +1,83 @@
+
+
+
+
+
+
+
+
+function reversestring(str){
+    /*
+    var listOfChars = str.split('');
+    var reverselist = listOfChars.reverse();
+    var reversedstr = reverselist.join();
+
+    return reversedstr ;
+    same as below
+    */
+    
+    var reversedstr = str.split('').reverse().join();
+
+
+
+
+ }
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*
  const bdate = document.querySelector("#birthday");
  
  const palBtn = document.querySelector("#palindrome-btn");
@@ -87,3 +166,5 @@
  }
 
  palBtn.addEventListener("click", dateToString);
+
+ */
