@@ -22,6 +22,18 @@ function reversestring(str){
 
 
  }
+
+ function isPalindrome(str){
+
+    if ((reversestring(str))== str){
+
+        return true;
+
+    } else{
+        
+        return false;
+    }
+ }
  
  
  
