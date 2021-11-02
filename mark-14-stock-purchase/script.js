@@ -19,11 +19,15 @@
 
         var profitPerc = ((profit/initialPrice)*100);
 
+        showOutput("Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc}");
+
     } else if(initialPrice>finalPrice){
 
         var loss = ((initialPrice-finalPrice)*quantity);
 
         var lossPerc = ((loss/initialPrice)*100);
+
+        showOutput("Hey the loss is ${profit} and the loss percentage is ${profitPerc}");
 
     } else{
 
@@ -31,6 +35,11 @@
 
     }
 
+ }
+
+ function showOutput(message){
+
+    output.innerText =message;
  }
 
  function clickHandler(){
