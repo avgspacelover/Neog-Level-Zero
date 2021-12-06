@@ -64,7 +64,7 @@
 
 <strong>Portfolio Website:                         </strong>
 
-- <strong>Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ </strong>
+<strong>Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ </strong>
 
 
 
