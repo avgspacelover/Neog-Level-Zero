@@ -32,7 +32,7 @@
   - Repository:
 
 - Mark 9: Tedx Talks [React Js App]
-  - Link: 
+  - Link: https://antariksh-ted-talk-recommend.netlify.app/
   - Repository:
 
 - Mark 10: Cash Register
