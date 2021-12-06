@@ -8,18 +8,18 @@
   - Link: https://replit.com/@Antarix17/Suits-FandomQuiz-1#index.js
   - Repository: 
 
-- Mark 3: Host Website
-  - Link: 
+- Mark 3: Host Projects on Github
+  - NeoG level 1 Repository: 
   
 - Mark 4: Portfolio Page
-  - Link: 
+  - Link: https://antariksh-neog-portfolio.netlify.app/
   - Repository:
 
 - Mark 5: Blog Page
-  - Link: 
+  - Link: https://antariksh-neog-portfolio.netlify.app/blogs.html
   
 - Mark 6: Minion, Translation Web App
-  - Link: 
+  - Link: https://antariksh-minion-talk.netlify.app/
   - Repository
 
 - Mark 7: Yoda, Translation Web App
