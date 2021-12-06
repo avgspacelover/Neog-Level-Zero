@@ -1,0 +1,14 @@
+.Emoji-App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 0.25rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  color: red;
+  font-weight: bold;
+  width: 50%;
+}
