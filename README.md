@@ -62,9 +62,9 @@
 <hr>
 <br>
 
-**Portfolio Website:                         **
+<strong>Portfolio Website:                         </strong>
 
-- **Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ **
+- <strong>Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ </strong>
 
 
 
