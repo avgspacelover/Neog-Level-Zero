@@ -22,8 +22,9 @@
   - Link: https://antariksh-minion-talk.netlify.app/
   - Repository
 
-- Mark 7: Yoda, Translation Web App
-  - Link: 
+- Mark 7: Ferb Latin, Translation Web App
+  - Link: https://antariksh-ferblatin-talk.netlify.app/
+  
   - Repository:
 
 - Mark 8: Emoji Interpreter [React Js App]
