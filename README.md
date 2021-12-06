@@ -36,11 +36,11 @@
   - Repository:
 
 - Mark 10: Cash Register
-  - Link: 
+  - Link: https://antariksh-cash-register.netlify.app/
    - Repository:
 
 - Mark 11: Is your birthday Lucky?
-  - Link: 
+  - Link: https://antariksh-bday-lucky.netlify.app/
   - Repository:
  
 - Mark 12: Have Fun with Triangles
@@ -48,11 +48,11 @@
   - Repository:
  
 - Mark 13: Is your Birthday a Paindrome?
-  - Link: 
+  - Link: https://antariksh-bday-palindrome.netlify.app/
  - Repository:
   
 - Mark 14: Profit and loss calculator
-  - Link: 
+  - Link: https://antariksh-stock-purchase.netlify.app/
   - Repository:
  
 - Mark 15:
