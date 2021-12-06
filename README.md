@@ -1,45 +1,73 @@
-# Neog-Level-Zero => Guide
-
-<b>15 point system:</b> https://neog.camp/qualifier/portfolio || https://neog.camp/qualifier/point-system
-
-Guide 1: https://neog.camp/guide/lesson-one<br>
-<hr>
-Guide 2: https://neog.camp/guide/lesson-two<br>
-<hr>
-Guide 3: https://neog.camp/guide/lesson-three<br>
-<hr>
-Guide 4: https://neog.camp/guide/lesson-four <br>
-<hr>
-Guide 5: https://neog.camp/guide/lesson-five <br>
-<hr>
-Guide 6: https://neog.camp/guide/mark-10 <br>
-<hr>
-Guide 7: https://neog.camp/guide/mark-11<br>
-<hr>
-Guide 8: https://neog.camp/guide/mark-12 <br>
-<hr>
-Guide 9: https://neog.camp/guide/mark-13 <br>
-<hr>
-Guide 10: https://neog.camp/guide/mark-14 <br>
-<hr>
-Guide 11:<br>
-<hr>
-Guide 12:<br>
+#PORTFOLIO
 <hr>
 
-Miscellaneous:<br>
- https://github.com/tanaypratap/teamtanay.jobchallenge.dev/issues/232 <br>
+- Mark 1: How Well Do You Know Me? [CLI App]
+  - Link: https://replit.com/@Antarix17/How-well-do-you-know-Siddharth#index.js
+  - Repository: 
+- Mark 2: Suits Quiz! [CLI App]
+  - Link: https://replit.com/@Antarix17/Suits-FandomQuiz-1#index.js
+  - Repository: 
 
-https://www.javatpoint.com/innertext-vs-innerhtml <br>
+- Mark 3: Host Website
+  - Link: 
+  
+- Mark 4: Portfolio Page
+  - Link: 
+  - Repository:
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP <br>
+- Mark 5: Blog Page
+  - Link: 
+  
+- Mark 6: Minion, Translation Web App
+  - Link: 
+  - Repository
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods <br>
+- Mark 7: Yoda, Translation Web App
+  - Link: 
+  - Repository:
 
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API <br>
+- Mark 8: Emoji Interpreter [React Js App]
+  - Link: 
+  - Repository:
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions <br>
+- Mark 9: Tedx Talks [React Js App]
+  - Link: 
+  - Repository:
 
-https://replit.com/@tanaypratap/lessonfourapi <br>
+- Mark 10: Cash Register
+  - Link: 
+   - Repository:
 
-https://stackoverflow.com/questions/43871637/ no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe <br>
+- Mark 11: Is your birthday Lucky?
+  - Link: 
+  - Repository:
+ 
+- Mark 12: Have Fun with Triangles
+  - Link: 
+  - Repository:
+ 
+- Mark 13: Is your Birthday a Paindrome?
+  - Link: 
+ - Repository:
+  
+- Mark 14: Profit and loss calculator
+  - Link: 
+  - Repository:
+ 
+- Mark 15:
+  - Link: 
+
+<hr>
+<br>
+
+**Portfolio Website:                         **
+
+- **Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ **
+
+
+
+
+
+
+
+

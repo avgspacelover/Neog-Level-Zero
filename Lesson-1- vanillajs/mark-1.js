@@ -30,7 +30,7 @@ var quespool=[{
     ans: "ajr"
   }];
   
-
+console.log("How well do you know Siddharth?\n\n");
 
 var countit=0;
 
