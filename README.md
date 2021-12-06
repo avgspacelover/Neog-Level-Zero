@@ -28,7 +28,7 @@
   - Repository:
 
 - Mark 8: Emoji Interpreter [React Js App]
-  - Link: 
+  - Link: https://antariksh-emojipedia.netlify.app/
   - Repository:
 
 - Mark 9: Tedx Talks [React Js App]
@@ -36,23 +36,23 @@
   - Repository:
 
 - Mark 10: Cash Register
-  - Link: https://antariksh-cash-register.netlify.app/
+  - Link: https://antariksh-cash-register.netlify.app/   //style
    - Repository:
 
 - Mark 11: Is your birthday Lucky?
-  - Link: https://antariksh-bday-lucky.netlify.app/
+  - Link: https://antariksh-bday-lucky.netlify.app/      //style
   - Repository:
  
 - Mark 12: Have Fun with Triangles
-  - Link: 
+  - Link: https://antariksh-triangle-fun.netlify.app/     //Style +linking
   - Repository:
  
 - Mark 13: Is your Birthday a Paindrome?
-  - Link: https://antariksh-bday-palindrome.netlify.app/
+  - Link: https://antariksh-bday-palindrome.netlify.app/   //style
  - Repository:
   
 - Mark 14: Profit and loss calculator
-  - Link: https://antariksh-stock-purchase.netlify.app/
+  - Link: https://antariksh-stock-purchase.netlify.app/     //style
   - Repository:
  
 - Mark 15:
