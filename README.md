@@ -9,7 +9,7 @@
   - Repository: 
 
 - Mark 3: Host Projects on Github
-  - NeoG level 1 Repository: 
+  - NeoG level 1 Repository: https://github.com/antariksh17/Neog-Level-Zero
   
 - Mark 4: Portfolio Page
   - Link: https://antariksh-neog-portfolio.netlify.app/    /work on page
