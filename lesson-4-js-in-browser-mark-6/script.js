@@ -9,10 +9,7 @@ var output= document.querySelector("#output");
 var url ="https://funtranslations.com/translate/minion.json";
 
 function miniontranslate(text){
-    var t = encodeURI(text);
-    return `${url}?text=${t}`;
-    
-    
+    return url + "?" + "text=" + text;
 }
 //
 

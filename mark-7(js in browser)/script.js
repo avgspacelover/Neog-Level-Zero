@@ -8,7 +8,7 @@ var output= document.querySelector("#output");
 
 var url ="https://api.funtranslations.com/translate/ferb-latin.json";
 
-function miniontranslate(text){
+function ferbtranslate(text){
     return url + "?" + "text=" + text;
 }
 //
@@ -21,7 +21,7 @@ function errorhandle(error){
 function clickevent(){
     console.log("ok");
     var textq= input.value;
-    fetch(miniontranslate(textq))
+    fetch(ferbtranslate(textq))
       .then(response => response.json())
       .then(json => { var translatedText = console.log(json.contents.translated);
                       output.innerText = translatedText;
