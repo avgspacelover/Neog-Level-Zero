@@ -6,7 +6,7 @@ var translatebtn= document.querySelector("#translatebtn");
 var input= document.querySelector("#text-input");
 var output= document.querySelector("#output");
 
-var url ="https://funtranslations.com/translate/minion.json";
+var url ="https://enigmatic-headland-52940.herokuapp.com/https://funtranslations.com/translate/minion.json";
 
 function miniontranslate(text){
     var t = encodeURI(text);
