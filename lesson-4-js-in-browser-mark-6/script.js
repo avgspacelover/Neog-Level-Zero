@@ -24,7 +24,7 @@ function errorhandle(error){
 function clickevent(){
     console.log("ok");
     var textq= input.value;
-    fetch(miniontranslate(textq),  {mode: 'no-cors'})
+    fetch(miniontranslate(textq))
       .then(response => response.json())
       .then(json => { var translatedText = console.log(json.contents.translated);
                       output.innerText = translatedText;
