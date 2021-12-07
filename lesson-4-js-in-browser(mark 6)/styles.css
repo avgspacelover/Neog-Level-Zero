@@ -2,7 +2,12 @@ body{
     font-family: 'Montserrat',sans-serif;
     color: #D4ECDD;
     background-color: #345B63;
-    
+    margin:0px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     
 }
 
