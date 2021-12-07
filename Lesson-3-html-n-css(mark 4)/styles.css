@@ -81,8 +81,9 @@ hr{
 
 
 
-.navigation .nav-brand{
-    font-weight: 700;
+.navigation #nav-brand{
+    font-weight: bolder;
+    font-size: larger;
 
 }
 
