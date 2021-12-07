@@ -33,7 +33,7 @@
 
 - Mark 9: Tedx Talks [React Js App]
   - Link: https://antariksh-ted-talk-recommend.netlify.app/
-  - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/Lesson-5-Mark-9-Recom-sys/my-app      //fix viewing list
+  - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/Lesson-5-Mark-9-Recom-sys/my-app      
 
 - Mark 10: Cash Register
   - Link: https://antariksh-cash-register.netlify.app/   //style
