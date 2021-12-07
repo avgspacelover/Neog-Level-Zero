@@ -13,11 +13,11 @@
   - NeoG level 1 Repository: https://github.com/antariksh17/Neog-Level-Zero
   
 - Mark 4: Portfolio Page
-  - Link: https://antariksh-neog-portfolio.netlify.app/    /work on page
+  - Link: https://antariksh-neog-portfolio.netlify.app/    
   - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/Lesson-3-html-n-css(mark%204)
 
 - Mark 5: Blog Page
-  - Link: https://antariksh-neog-portfolio.netlify.app/blogs.html
+  - Link: https://antariksh-neog-portfolio.netlify.app/blogs.html /add blog 2
   
 - Mark 6: Minion, Translation Web App
   - Link: https://antariksh-minion-talk.netlify.app/
