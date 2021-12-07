@@ -14,15 +14,7 @@
   
 }
 
-input {
-  padding: 0.25rem;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  border-radius: 25px;
-  color: red;
-  font-weight: bold;
-  width: 50%;
-}
+
 
 #flap{
   background-color: black;
@@ -53,7 +45,11 @@ input {
 
 
 }
+p{
+  font-weight: bolder;
+  font-size: 120%;
 
+}
 #theme{
 
   width:60%;
@@ -62,60 +58,53 @@ input {
   font-family: 'Montserrat',sans-serif;
 }
 
-#nav{
-  /* display: flex; */
+#nav, #lists{
+  
   width:60%;
   margin:0 auto; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  
   
 
 }
-ul{
-  /* display: flex;
-  flex-direction: row; */
-  /* justify-content: space-between;   */
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-columns: max-content;
-  grid-column-gap: 35px;
-  padding-left: 0%;
-  
-  /* width: 60%;
-  padding-left: 0%;
-  align-items: center; */
-  
+
+#lists{
+  align-items: center;
 }
+ 
 
 li{
   list-style: none;
   color: white;  
   background-color: var(--mildgrey);
   font-weight: bolder;
-  font-family: 'Montserrat',sans-serif;
-  /* padding: 2% 5% 2% 5%; */
-  padding: 2%;
+  
+  
+  padding: 1.5rem;
   border: 4px solid var(--mildgrey);
-  border-radius: 2.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  width: 90%;
+  margin: 1rem 1rem 1rem 1rem;
   /* margin-right: 25px;  */
   /*margin-left: 0%; */
   
 }
 
-button{
+/* button{
   color: white; 
   background-color: var(--mildgrey);
-  font-weight: bold;
-  font-family: 'Montserrat',sans-serif;
+  font-weight: bolder;
+  
   font-size: 110%;
   border:none;
-  background-color:transparent;
+  
   outline:none;
   cursor: pointer;
-}
+} */
 
-#lists {
-  
-  margin: auto;
-  width: 60%;
 
-}
+
+

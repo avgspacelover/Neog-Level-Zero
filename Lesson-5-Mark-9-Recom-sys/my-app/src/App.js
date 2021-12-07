@@ -45,7 +45,7 @@ const tedTalks = {
 
 
 export default function App() {
-  const [selectedTheme, setTheme] = useState("productivity");
+  const [selectedTheme, setTheme] = useState("Productivity");
 
   function themeSelector(theme){
     setTheme(theme);
@@ -75,13 +75,27 @@ export default function App() {
          </p>
        </div>
        <nav id="nav">
-          <ul>
-            <li>
-              <div>
+          
+            
+              <div >
 
              
                  {Object.keys(tedTalks).map((theme) => (
-                  <button onClick={() => themeSelector(theme)}>
+                  <button onClick={() => themeSelector(theme)}
+                  style={{
+                    color: "white",
+                    listStyle: "none",
+                    background: "var(--mildgrey)",
+                    fontWeight: "bolder",
+                    fontSize: "large",
+                    padding: "2%",
+                    border: "4px solid var(--mildgrey)",
+                    borderRadius: "2.5rem",
+                    outline:"none",
+                    margin: "1rem 1rem 1rem 1rem",
+                    cursor: "pointer",
+
+                  }}>
              
                     {theme}
 
@@ -90,33 +104,28 @@ export default function App() {
 
                 ))}
               </div>
-            </li>
+            
             
 
-          </ul>
           
-
+          
+        <hr/ >     
         </nav>
-      <div id-="lists">
-
-        <hr/>
+        
+      <div id="lists">
+      
 
         <div style={{ textAlign: "left" }}>
           <ul style={{ paddingInlineStart: "0" }}>
-            {tedTalks[selectedTheme].map((topic) => (
+            {tedTalks[selectedTheme].map((theme) => (
               <li
-                key={topic.name}
+                key={theme.name}
                 style={{
-                  listStyle: "none",
-                  padding: "1rem",
-                  border: "1px solid #D1D5DB",
-                  width: "70%",
-                  margin: "1rem 0rem",
-                  borderRadius: "0.5rem"
+                  margin: "1rem 1rem 1rem 1rem"
                 }}
               >
               {" "}
-              <div style={{ fontSize: "larger" }}> {topic.name} </div>
+              <div style={{ fontSize: "large" }}> {theme.name} </div>
               {/* <div style={{ fontSize: "smaller" }}> {topic.rating} </div> */}
             </li>
             ))}
