@@ -1,6 +1,6 @@
-import React from "react";
+import React ,{ useState } from "react";
 import "./App.css";
-//, { useState }
+//
 
 const tedTalks = {
   Productivity: [
@@ -42,7 +42,7 @@ const tedTalks = {
   ]
 };
 
-var emojiLib = Object.keys(emojiDictionary);
+
 
 export default function App() {
   const [selectedTheme, setTheme] = useState("productivity");
@@ -54,9 +54,7 @@ export default function App() {
 
   
 
-  function listInteract(theme){
-    console.log(theme);
-  }
+  
 
   return (
     <div className="ted-App">
