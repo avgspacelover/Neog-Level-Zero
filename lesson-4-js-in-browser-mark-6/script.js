@@ -6,7 +6,7 @@ var translatebtn= document.querySelector("#translatebtn");
 var input= document.querySelector("#text-input");
 var output= document.querySelector("#output");
 
-var url ="https://serene-stream-49911.herokuapp.com/https://funtranslations.com/translate/minion.json";
+var url ="https://funtranslations.com/translate/minion.json";
 
 function miniontranslate(text){
     var t = encodeURI(text);
@@ -24,7 +24,7 @@ function errorhandle(error){
 function clickevent(){
     console.log("ok");
     var textq= input.value;
-    fetch(miniontranslate(textq))
+    fetch(miniontranslate(textq),  {mode: 'no-cors'})
       .then(response => response.json())
       .then(json => { var translatedText = console.log(json.contents.translated);
                       output.innerText = translatedText;
