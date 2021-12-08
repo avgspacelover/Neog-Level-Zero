@@ -5,7 +5,7 @@
 
  const checkNumberBtn = document.querySelector("#check");
 
- const outputBox = document.querySelector("#op-box");
+ const outputBox = document.querySelector("#output");
 
  /* Testing input reception
  checkNumberBtn.addEventListener("click", function getValues(){

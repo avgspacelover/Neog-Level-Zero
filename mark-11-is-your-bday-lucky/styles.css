@@ -1,7 +1,35 @@
 body{
     font-family: Montserrat,sans-serif;
-    
+    margin: 0 auto;
+    background-color: var(--semi-burgundy);
 }
+
+:root {
+    --grey: #404B69;
+    --metal-grey: #283149;
+    --semi-burgundy: #53354A;
+    --flash-pink: #F73859;
+    --blue-white: #DBEDF3;
+    --off-white: #F8F3D4;
+    --mild-orange: #F05454;
+    
+  }
+
+
+header{
+    background-color: var(--metal-grey);
+    width: 100%;
+    color: var(--flash-pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1rem solid var(--flash-pink);
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+
+}
+
+
 
 h1{
     margin: auto;
@@ -13,8 +41,10 @@ h1{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--semi-burgundy);
     
     
     
@@ -24,13 +54,14 @@ h1{
 
 label{
     
+    background-color: var(--mild-orange);
     text-align: center;
-    
+    color: var(--metal-grey);
     font-weight: bolder;
-
-    
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.25rem solid var(--off-white);
+    border-radius: 0.75rem ;
     
 
 }
@@ -38,23 +69,56 @@ label{
 input{
     margin: auto;
     font-weight: bold;
-    border: 0.25rem solid black;
+    background-color: var(--metal-grey);
+    color: var(--flash-pink);
+    border: 0.25rem solid var(--off-white);
     border-radius: 0.5rem;
-    width: 10%;
+    width: 40%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
     /* width: 40%; */
 }
 
 #check{
     margin: auto;
     width:10rem;
-    margin-top: 5rem ;
-    padding: .25rem;
+    margin-top: 2rem ;
+    padding: 1rem; 
     font-weight: bolder;
     font-size: 16px;
-    border-radius: 2.5rem;
+    border: 1rem solid var(--off-white);
+    border-radius: 1.5rem;
     border-width: 0.5rem;
-    /* background-color: ;
-    color: ;*/
+    background-color:  var(--mild-orange);
+    color: var(--metal-grey) ;
 } 
+
+#output{
+    background-color: var(--metal-grey);
+    color: var(--off-white);
+    font-weight: bolder;
+    text-align: center;
+    border: 0.1rem solid var(--flash-red);
+    margin-bottom: 1rem;
+    border: 0.5rem solid var(--off-white);
+    border-radius: 0.1rem;
+    width: 40%;
+    padding: 1rem;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: var(--off-white);   
+}
+h3 a{
+    text-decoration: none;
+    color: var(--off-white);
+    padding: 0.21rem;
+    border: 0.25rem solid var(--metal-grey);
+    border-radius: 0.25rem;
+    background-color: var(--metal-grey);
+}
