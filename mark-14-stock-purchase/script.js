@@ -14,20 +14,20 @@
  function calculateProfitnLoss(initialPrice,quantity,finalPrice){
 
     if(finalPrice>initialPrice){
-
+        
         var profit = ((finalPrice-initialPrice)*quantity);
-
+        
         var profitPerc = ((profit/initialPrice)*100);
 
-        showOutput("Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc}");
+        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc}`);
 
     } else if(initialPrice>finalPrice){
-
+        
         var loss = ((initialPrice-finalPrice)*quantity);
-
+        
         var lossPerc = ((loss/initialPrice)*100);
 
-        showOutput("Hey the loss is ${profit} and the loss percentage is ${profitPerc}");
+        showOutput(`Hey the loss is ${loss} and the loss percentage is ${lossPerc}`);
 
     } else{
 
@@ -46,9 +46,13 @@
 
     var initPrice = Number(price.value);
 
+    
+
     var qtty = Number(qty.value);
+    
 
     var cp = Number(curPrice.value);
+    
 
     calculateProfitnLoss(initPrice,qtty,cp);
  }

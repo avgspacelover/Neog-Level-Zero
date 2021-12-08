@@ -37,33 +37,50 @@ label{
 
 }
 
-label {
-    background-color: var(--off-white);
+/* label {
+    background-color: var(--flash-red);
     width:45%;
-    text-align: left;
-    color: var(--semi-burgundy);
+    text-align: center;
+    color: var(--off-white);
     font-weight: bolder;
-    margin: 1px;
-    padding: 0rem;
-    border: 0.25rem solid var(--cobalt-tinge);
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.25rem solid var(--off-white);
+    border-radius: 1rem ;
+
+}  */
+
+.txt-label {
+    background-color: var(--mild-orange);
+    width:45%;
+    text-align: center;
+    color: var(--off-white);
+    font-weight: bolder;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border: 0.25rem solid var(--off-white);
     border-radius: 0.75rem ;
 
 }
 
-input {
+#content input {
     background-color: var(--off-white);
-    width:45%;
-    text-align: left;
-    color: var(--semi-burgundy);
+    width:100%;
+    text-align: center;
+    color: var(--flash-red);
     font-weight: bolder;
-    margin: 1px;
-    padding: 0rem;
-    border: 0.25rem solid var(--cobalt-tinge);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 0.25rem solid var(--flash-red);
     border-radius: 0.75rem ;
 
 }
 
-
+::placeholder {
+    color: var(--cobalt-blue);
+}
 
 
 
@@ -74,7 +91,8 @@ button {
     color: var(--off-white);  
     font-size: 120%;
     font-weight: 900;
-    margin: 1rem;   
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;   
     padding: 1rem;
     border: 0.25rem solid var(--off-white);
     border-radius: 1.5rem ;
@@ -89,7 +107,8 @@ button {
     text-align: center;
     border: 0.25rem solid var(--flash-red);
     border-radius: 0.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     width: 30%;
     padding: 1rem;
 }
