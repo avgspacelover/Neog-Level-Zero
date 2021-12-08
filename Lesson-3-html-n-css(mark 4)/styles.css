@@ -75,7 +75,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 0rem 1rem 3rem 1rem;
+    border-radius: 1rem 1rem 3rem 3rem;
 
 }
 
