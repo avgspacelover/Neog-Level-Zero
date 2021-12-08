@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
     
 
-    <link href="quiz-styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    
     
     
     
@@ -17,62 +19,114 @@
     <title>Triangle Quiz</title>
 </head>
 <body>
+    <nav id="nav-bar">
 
-    <h1>Triangle Quiz</h1>
+        <header>
+            <h1>
+                Fun With Triangles!!!
+            </h1>
+        </header>
 
-    <form class="quiz-form">
+        <ul id="li-container">
+            <li class="lists">
+                <a href="index.html">
+                    Angles make a Triangle?
+                </a>
+            </li>
 
-        <div class="question-container">
+            <li class="lists" id="link-active">
+                <a href="quiz-index.html">
+                    Triangle Quiz!
+                </a>
+            </li>
 
-            <p>
+            <li class="lists"> 
+                <a href="triangle-area-index.html">
+                    Area of a Triangle!
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <section id="head">
+        <header>
+            <h2>
+                Triangle Quiz
+            </h2>
+        </header>
+    </section>
+
+    
+    <section id="content">
+        <form class="quiz-form">
+
+            <div class="question-container">
+
+              <p>
                 What's the third angle of a triangle whose other two angles are  45° ?
-            </p>
+              </p>
 
-            <label >
-                <input type = "radio" name= "question" value="45°"/>
-                45°
-            </label>
+              <label >
+                 <input type = "radio" name= "question" value="45°"/>
+                 45°
+              </label>
 
-            <label >
-                <input type = "radio" name= "question" value="60°"/>
-                60°
-            </label>
+              <label >
+                 <input type = "radio" name= "question" value="60°"/>
+                 60°
+              </label>
 
-            <label >
-                <input type = "radio" name= "question" value="90°"/>
-                90°
-            </label>
-        </div>
+              <label >
+                 <input type = "radio" name= "question" value="90°"/>
+                 90°
+              </label>
 
-        <div class="question-container">
+            </div>
 
-            <p>
-                If a triangle has an angle of 90°, then what is it called?
-            </p>
+            <div class="question-container">
 
-            <label>
-                <input type = "radio" name= "question2" value="Acute"/>
+              <p>
+                  If a triangle has an angle of 90°, then what is it called?
+              </p>
+
+              <label>
+                 <input type = "radio" name= "question2"  value="Acute"/>
                 Acute
-            </label>
+              </label>
 
-            <label >
-                <input type = "radio" name= "question2" value="Right angled"/>
-                Right angled
-            </label>
+              <label >
+                 <input type = "radio" name= "question2" value="Right angled"/>
+                  Right angled
+              </label>
 
-            <label >
-                <input type = "radio" name= "question2" value="Obtuse"/>
-                Obtuse
-            </label>
-        </div>
-    </form>
+              <label >
+                 <input type = "radio" name= "question2"     value="Obtuse"/>
+                 Obtuse
+              </label>
+            </div>
+      
+        </form>
+      
+      <button id="submit-btn">Submit Answers</button>
+        
+      <div id="output"></div>
+    </section>
+    
 
-    <button id="submit-btn">Submit Answers</button>
-
-    <p id="output"></p>
+    
+    <footer>
+        <section>
+            <h3>
+                <a href="https://liinks.co/antariksh">Connect with me</a>
+            </h3>
+        </section>
+    </footer>
+    
+    <script src="quiz-script.js"> </script>
     
 </body>
 
-<script src="quiz-script.js"> </script>
+
 
 </html>

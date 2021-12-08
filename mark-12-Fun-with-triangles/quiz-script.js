@@ -28,7 +28,7 @@
         index= index+1;
     }
 
-    output.innerText = "your score is" + score;
+    output.innerText = "Your Score is " + score;
 
  }
 
