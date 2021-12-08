@@ -24,7 +24,7 @@
     if( billAmount.value >0){
         if(cashGiven.value >= billAmount.value){
             const amountToBeReturned = cashGiven.value - billAmount.value;
-
+            console.log(amountToBeReturned);
             calculateChange(amountToBeReturned);
 
         } else{
