@@ -10,32 +10,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
     
 
-    <link href="triangle-area-styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     
     
     
     <title> Area of a Triangle</title>
 </head>
 <body>
+    <nav id="nav-bar">
 
-    <h1> Calculate Area of a Right-Angled Triangle</h1>
+        <header>
+            <h1>
+                Fun With Triangles!!!
+            </h1>
+        </header>
 
-    <label>Base =</label>
-    <input type="number" class="side-input" />
-    <label>Height =</label>
-    <input type="number" class="side-input" />
+        <ul id="li-container">
+            <li class="lists" >
+                <a href="index.html">
+                    Angles make a Triangle?
+                </a>
+            </li>
 
-    <br>
+            <li class="lists">
+                <a href="quiz-index.html">
+                    Triangle Quiz!
+                </a>
+            </li>
 
-    <button id="area-btn"> Calculate Area </button>
+            <li class="lists"id="link-active"> 
+                <a href="triangle-area-index.html">
+                    Area of a Triangle!
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <section id="head">
+        <header>
+            <h2>
+                Calculate Area of a Right-Angled Triangle
+            </h2>
+        </header>
+    </section>
+
+    <section id="content">
+        <label>Base</label>
+        <input type="number" class="side-input" />
+        <label>Height</label>
+        <input type="number" class="side-input" />
     
-    <p id="output"> </p>
+        <br>
+    
+        <button id="area-btn"> Calculate Area </button>
+        
+        <p id="output"> </p>
+
+    </section>
+
+    <footer>
+        <section>
+            <h3>
+                <a href="https://liinks.co/antariksh">Connect with me</a>
+            </h3>
+        </section>
+    </footer>
+    
     
 
 
-    
+    <script src ="triangle-area-script.js" ></script>   
 </body>
-<script src ="triangle-area-script.js" ></script>
+
 
 </html>
 
