@@ -1,3 +1,102 @@
 body{
     font-family: 'Montserrat',sans-serif;
+    margin: 0 auto;
+    height: 100%;
 }
+:root {
+    --sea-green: #008891;
+    --flash-red: #E84545;
+    --dirty-green: #233142;
+    --cobalt-blue: #0F3057;
+    --mild-orange: #F95959;
+    --off-white: #F8F3D4;
+    
+}
+
+#nav-bar {
+    background-color: var(--cobalt-blue);
+    width: 100%;
+    color: var(--mild-orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content {
+    background-color: var(--dirty-green);
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+#txt-label {
+    background-color: var(--mild-orange);
+    width:45%;
+    text-align: center;
+    color: var(--off-white);
+    font-weight: bolder;
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 0.25rem solid var(--off-white);
+    border-radius: 0.75rem ;
+
+}
+
+input {
+    background-color: var(--mild-orange);
+    color: var(--off-white);
+    width: 50vw;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+    border: 0.25rem solid var(--off-white);
+    border-radius: 2rem;
+    
+}
+
+button {
+    background-color: var(--flash-red);
+    color: var(--off-white);  
+    font-size: 120%;
+    font-weight: 900;
+    margin: 1rem;   
+    padding: 1rem;
+    border: 0.25rem solid var(--off-white);
+    border-radius: 1.5rem ;
+    cursor: pointer;
+
+}
+
+#output{
+    background-color: var(--off-white);
+    color: var(--cobalt-blue);
+    font-weight: bolder;
+    text-align: center;
+    border: 0.25rem solid var(--flash-red);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 30%;
+    padding: 1rem;
+}
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: var(--off-white);   
+}
+
+h3 a{
+    text-decoration: none;
+    color: var(--off-white);
+    padding: 0.21rem;
+    border: 0.25rem solid var(--cobalt-blue);
+    border-radius: 0.25rem;
+    background-color: var(--cobalt-blue);
+}
+
+
