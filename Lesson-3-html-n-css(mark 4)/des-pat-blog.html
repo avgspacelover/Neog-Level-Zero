@@ -59,11 +59,11 @@
                       The entire objective behind establishing the concept by Robert Martin and the Gang of Four was to make code more readable and extensible. The nuance being that the code is ultimately written for humans and not for the machine. This takes years to understand and essentially what distinguishes a senior SWE from juniors.
 
                     </p>
-                   <br>
+                   
                    <p>
                       We are going to walk through these 5 principles and their applications and the need for them to be implemented in large scale codebases.
                     </p>
-                   <br>
+                   
                    <p>
                      First and foremost we need to understand that we have to make a choice whether we have the need for these principles in the architecture in the first place and it can be really laborious task. There's no hard and fast rule to employ all the five principles as in most cases you wont even find them together in real life scaled architectures but making use of a combination of them can really make your code extensible and more readable, which might be a huge load lifted of developers who might have to follow through your work. So with no further delay, let's dig into these pillars of modern day OOP architecture.
 
@@ -71,7 +71,7 @@
 
 
                 </section>
-                <br>
+                
                <section>
                    <h5><strong>#1 Single Responsibility Principle</strong></h5>
                    <p>
@@ -80,7 +80,7 @@
                     </p>
                 
                 </section>
-                <br>
+                
                 <section>
                     <h5><strong>#2 Open/ Closed Principle</strong></h5>
                     <p>
@@ -89,14 +89,14 @@
                      </p>
                  
                  </section>
-                 <br>
+                 
                  <section>
                     <h5><strong>#3 Liskov Substitution Principle</strong></h5>
                     <p>
                         To put this succinctly, "when extending a class, one needs to be able to pass objects of the subclass in place of objects of parent class without breaking the client code" . In layman terms, the methods and objects of any child class should be able work in hand with the methods and objects of parent class. This principle needs to be followed where you cant affect the code of people who are accessing your classes so its falls into your hands to make the code extensible for them, even while writing overriding methods.
  
                      </p>
-                     <br>
+                     
                      <ul>
                          <p>
                              This principle states some formal rules to be followed by the child classes:
@@ -125,7 +125,7 @@
                     </ul>
                  
                  </section>
-                 <br>
+                 
                  <section>
                     <h5><strong>#4 Interface Design Principle</strong></h5>
                     <p>
