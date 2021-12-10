@@ -104,22 +104,22 @@
                          <li style="margin-bottom: 0.5rem;">
                              The argument types in the functions of a child class should be more abstract or match those arguments in the functions of the parent class.
                          </li>
-                         <li style="margin-bottom: 0.5rem;">
+                         <li style="margin-bottom: 0.75rem;">
                              The return type of the child class should match or be a subtype of the return type of the parent class.
                         </li>
-                        <li style="margin-bottom: 0.5rem;">
+                        <li style="margin-bottom: 0.75rem;">
                              The functions of child class shouldn't catch the programmers by surprise by throwing any exceptions which are not witnessed in the parent classes.
                         </li>
-                        <li style="margin-bottom: 0.5rem;">
+                        <li style="margin-bottom: 0.75rem;">
                              The child classes shouldn't strengthen pre-conditions. This basically means you cannot narrower the range of values which are accepted by the parent class as inheriting them would make the code throw exception when the older values passed the objects of the child class.
                         </li>
-                        <li style="margin-bottom: 0.5rem;">
+                        <li style="margin-bottom: 0.75rem;">
                              The child classes shouldn't weaken post conditions. This implies that you cannot broader the range of values resulting from calling of a method inherited from parent class in your child class as this may leave data running in the system in the background often times.
                         </li>
-                        <li style="margin-bottom: 0.5rem;">
+                        <li style="margin-bottom: 0.75rem;">
                              The invariants parts of a parent class must be preserved. This is almost always implied but to state it explicitly, the logical part of these classes should be functioning even after extending. And one should try to create new methods and objects instead of meddling with preexisting ones.
                         </li>
-                        <li style="margin-bottom: 0.5rem;">
+                        <li style="margin-bottom: 0.75rem;">
                              A child class shouldn't change the values of the private fields of a parent class. This goes without saying but is possible in some languages and hence is explicitly stated to be avoided.
                          </li>
                     </ul>
