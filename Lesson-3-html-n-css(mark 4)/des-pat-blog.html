@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+
+
+
+
+
+
+    <title>Made it to College, Now What?</title>
+</head>
+
+<body>
+
+    <nav class="navigation container">
+        <div id="nav-brand">Antariksh</div>
+
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link " href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="blogs.html">Blogs</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="undraw_Astronaut_re_8c33.svg">
+        <h1 class="hero-heading">Mangal Yatri| <span class="heading-inverted">Web Developer</span></h1>
+    </header>
+
+
+
+    <section class="sectionow">
+        <div class="container container-center">
+           <h3>Blogs</h3><hr>
+           <article>
+               <h4><strong>SOLID</strong></h4><hr>
+
+               <h5 style="font-weight: lighter;"><b>Imperative Design principles in a nutshell.</b></h5>
+               <br>
+
+               <section>
+                   <p>
+                      The entire objective behind establishing the concept by Robert Martin and the Gang of Four was to make code more readable and extensible. The nuance being that the code is ultimately written for humans and not for the machine. This takes years to understand and essentially what distinguishes a senior SWE from juniors.
+
+                    </p>
+                   <br>
+                   <p>
+                      We are going to walk through these 5 principles and their applications and the need for them to be implemented in large scale codebases.
+                    </p>
+                   <br>
+                   <p>
+                     First and foremost we need to understand that we have to make a choice whether we have the need for these principles in the architecture in the first place and it can be really laborious task. There's no hard and fast rule to employ all the five principles as in most cases you wont even find them together in real life scaled architectures but making use of a combination of them can really make your code extensible and more readable, which might be a huge load lifted of developers who might have to follow through your work. So with no further delay, let's dig into these pillars of modern day OOP architecture.
+
+                   </p>
+
+
+                </section>
+                <br>
+               <section>
+                   <h5><strong>#1 Single Responsibility Principle</strong></h5>
+                   <p>
+                     In simpler terms it means that  "A class should have just one reason to change" . A class should only be responsible for a single task and it would be even more optimised if the same is hidden completely within that class. The main idea is break down the codebase into smaller functions rather than bringing an enormous amount of functionality under one umbrella. SRP makes your code base extensible so that changing a line of code doesn't make your entire file as red as  a traffic signal. Also it can really be a headache to implement changes.
+
+                    </p>
+                
+                </section>
+                <br>
+                <section>
+                    <h5><strong>#2 Open/ Closed Principle</strong></h5>
+                    <p>
+                        Alexander Shvets explains this as "Classes should be open for extension but closed for modification". The objective behind this principle is that any new features should not break the code and should be able to be modified via implementation through new subclasses. These can even include methods which help in overriding the parent class functionalities. This principle is not applicable to bugs in the program, because those will definitely require modifications.
+ 
+                     </p>
+                 
+                 </section>
+                 <br>
+                 <section>
+                    <h5><strong>#3 Liskov Substitution Principle</strong></h5>
+                    <p>
+                        To put this succinctly, "when extending a class, one needs to be able to pass objects of the subclass in place of objects of parent class without breaking the client code" . In layman terms, the methods and objects of any child class should be able work in hand with the methods and objects of parent class. This principle needs to be followed where you cant affect the code of people who are accessing your classes so its falls into your hands to make the code extensible for them, even while writing overriding methods.
+ 
+                     </p>
+                     <br>
+                     <ul>
+                         <p>
+                             This principle states some formal rules to be followed by the child classes:
+                         </p>
+                         <li>
+                             The argument types in the functions of a child class should be more abstract or match those arguments in the functions of the parent class.
+                         </li>
+                         <li>
+                             The return type of the child class should match or be a subtype of the return type of the parent class.
+                        </li>
+                        <li>
+                             The functions of child class shouldn't catch the programmers by surprise by throwing any exceptions which are not witnessed in the parent classes.
+                        </li>
+                        <li>
+                             The child classes shouldn't strengthen pre-conditions. This basically means you cannot narrower the range of values which are accepted by the parent class as inheriting them would make the code throw exception when the older values passed the objects of the child class.
+                        </li>
+                        <li>
+                             The child classes shouldn't weaken post conditions. This implies that you cannot broader the range of values resulting from calling of a method inherited from parent class in your child class as this may leave data running in the system in the background often times.
+                        </li>
+                        <li>
+                             The invariants parts of a parent class must be preserved. This is almost always implied but to state it explicitly, the logical part of these classes should be functioning even after extending. And one should try to create new methods and objects instead of meddling with preexisting ones.
+                        </li>
+                        <li>
+                             A child class shouldn't change the values of the private fields of a parent class. This goes without saying but is possible in some languages and hence is explicitly stated to be avoided.
+                         </li>
+                    </ul>
+                 
+                 </section>
+                 <br>
+                 <section>
+                    <h5><strong>#4 Interface Design Principle</strong></h5>
+                    <p>
+                        It basically states that "The external classes shouldn't be forced to hinge on functions that are not needed for the particular use case".  The interfaces designed shouldn't be bulky and should try to be modular and minimal functionality handed to each method so a the client class shouldn't have to access unnecessary memory. This can also break the client class code sometimes because of a bug in a method thats not even being called in the first place.
+ 
+                     </p>
+                 
+                 </section>
+                 <section>
+                    <h5><strong>#4 Interface Design Principle</strong></h5>
+                    <p>
+                        Quoting Alexander Shvets , this principle states that "High-Level classes shouldn't depend on Low-Level classes. both should depend on abstractions. Abstractions shouldn't depend on details. Details should depend on abstractions." 
+ 
+                     </p>
+                     <p>
+                        Low-level  classes are meant for basic crud operations and transferring data over network  linking databases. while High- Level classes define methods to to execute low level classes and often hold the core business algorithms.
+ 
+                     </p>
+                     <p>
+                        High level classes should be linked to a single interfaces instead of calling multiple interfaces and code the low-level classes first. As soon as the low level classes execute the fundamental algorithms of the business the dependency is inversed as now the low level classes depend on the high level, which wasn't the case as such earlier.
+ 
+                     </p>
+                     <p>
+                        This principle goes hand in hand with open/close principle as the low-level classes can be extended for different business algorithms without affecting parent classes via extension.
+ 
+                     </p>
+                 
+                 </section>
+
+
+              
+
+           </article>  
+    
+
+
+        
+        </div>
+        
+ 
+    </section>
+
+    <footer>
+        <div class="footer-header">Connect with me</div>
+
+        <ul class="social-links list-non-bullet">
+
+            <li class="list-item-inline" >
+                <a class="link" href="https://github.com/antariksh17">Github</a>                
+
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/antariksh_17">Twitter</a>               
+
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/antariksh17">Linkedin</a>               
+
+            </li>
+            
+        </ul>
+
+        
+
+    </footer>
+
+
+
+
+</body>
+</html>
