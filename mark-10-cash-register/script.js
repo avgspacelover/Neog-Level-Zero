@@ -40,7 +40,8 @@
     } else{
         
         //calculateChange(0)
-        noOfNotes.map(item=> "")
+        noOfNotes.map(item=> item.innerText="")
+
         showMessage("Invalid Bill Amount");
     }
 });
