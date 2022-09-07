@@ -31,11 +31,15 @@
         } else{
 
             calculateChange(0)
+            
             showMessage("Do you want to WASH PLATES??");
              
         }
 
     } else{
+        
+        calculateChange(0)
+
         showMessage("Invalid Bill Amount");
     }
 });
