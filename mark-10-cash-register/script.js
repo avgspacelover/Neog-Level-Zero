@@ -31,7 +31,7 @@
         } else{
 
             //calculateChange(0)
-            noOfNotes.map(item=> "")
+            noOfNotes.map(item=> item.innerText="")
             
             showMessage("Do you want to WASH PLATES??");
              
