@@ -13,15 +13,7 @@
 
  function calculateProfitnLoss(initialPrice,quantity,finalPrice){
 
-    if(finalPrice>initialPrice){
-        
-        var profit = (finalPrice-initialPrice)*quantity;
-        
-        var profitPerc = (profit/initialPrice)*100;
-
-        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
-
-    } else if(initialPrice>finalPrice){
+    if(initialPrice>finalPrice){
         
         var loss = (initialPrice-finalPrice)*quantity;
         
@@ -29,7 +21,15 @@
 
         showOutput(`Hey the Loss is ${loss} and the Loss Percentage is ${lossPerc.toFixed(2)}%`);
 
-    } else{
+    }else if(finalPrice>initialPrice){
+        
+        var profit = (finalPrice-initialPrice)*quantity;
+        
+        var profitPerc = (profit/initialPrice)*100;
+
+        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
+
+    }  else{
 
         output.innerText = "No Pain, No Gain and No Gain, No Pain!";
 
