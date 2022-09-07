@@ -15,19 +15,19 @@
 
     if(finalPrice>initialPrice){
         
-        var profit = ((finalPrice-initialPrice)*quantity);
+        var profit = (finalPrice-initialPrice)*quantity;
         
-        var profitPerc = ((profit/initialPrice)*100);
+        var profitPerc = (profit/initialPrice)*100;
 
-        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}`);
+        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
 
     } else if(initialPrice>finalPrice){
         
-        var loss = ((initialPrice-finalPrice)*quantity);
+        var loss = (initialPrice-finalPrice)*quantity;
         
-        var lossPerc = ((loss/initialPrice)*100);
+        var lossPerc = (loss/initialPrice)*100;
 
-        showOutput(`Hey the loss is ${loss} and the loss percentage is ${lossPerc.toFixed(2)}`);
+        showOutput(`Hey the Loss is ${loss} and the Loss Percentage is ${lossPerc.toFixed(2)}%`);
 
     } else{
 
