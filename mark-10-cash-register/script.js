@@ -29,6 +29,8 @@
             calculateChange(amountToBeReturned);
 
         } else{
+
+            calculateChange(0)
             showMessage("Do you want to WASH PLATES??");
              
         }
