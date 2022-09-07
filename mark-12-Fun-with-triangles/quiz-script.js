@@ -5,7 +5,7 @@
 
  const output = document.querySelector("#output");
 
- const correctAnswers = ["90°","Right angled"];
+ const correctAnswers = ["90°","Right angled","One","80","4"];
 
 
  function calculateScore() {
