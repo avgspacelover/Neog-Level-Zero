@@ -30,7 +30,8 @@
 
         } else{
 
-            calculateChange(0)
+            //calculateChange(0)
+            noOfNotes.map(item=> "")
             
             showMessage("Do you want to WASH PLATES??");
              
@@ -38,8 +39,8 @@
 
     } else{
         
-        calculateChange(0)
-
+        //calculateChange(0)
+        noOfNotes.map(item=> "")
         showMessage("Invalid Bill Amount");
     }
 });
