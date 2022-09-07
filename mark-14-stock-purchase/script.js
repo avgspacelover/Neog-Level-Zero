@@ -19,7 +19,7 @@
         
         var profitPerc = ((profit/initialPrice)*100);
 
-        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc}`);
+        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}`);
 
     } else if(initialPrice>finalPrice){
         
@@ -27,7 +27,7 @@
         
         var lossPerc = ((loss/initialPrice)*100);
 
-        showOutput(`Hey the loss is ${loss} and the loss percentage is ${lossPerc}`);
+        showOutput(`Hey the loss is ${loss} and the loss percentage is ${lossPerc.toFixed(2)}`);
 
     } else{
 
