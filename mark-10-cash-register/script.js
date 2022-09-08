@@ -29,6 +29,7 @@
             calculateChange(amountToBeReturned);
 
         } else{
+            console.log("cg", cashGiven.value, "bm", billAmount.value)
 
             //calculateChange(0)
             Array.from(noOfNotes).map(item=> item.innerText="")
@@ -38,6 +39,7 @@
         }
 
     } else{
+        console.log("cg", cashGiven.value, "bm", billAmount.value)
         
         //calculateChange(0)
         Array.from(noOfNotes).map(item=> item.innerText="")
