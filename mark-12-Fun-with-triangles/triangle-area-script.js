@@ -8,8 +8,15 @@
  
 
  function calculateArea(){
+  
+   let a = Number(sides[0].value);
+   let b= Number(sides[1].value);
+  
+   if(a<=0 || b<=0){
+    output.innerText = "Invalid Input, please enter a non-zero postiive value";
+   }
 
-    const area = 0.5 * (Number(sides[0].value) * Number(sides[1].value));
+    const area = 0.5 *a*b ;
 
     console.log(area);
  
