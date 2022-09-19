@@ -23,7 +23,8 @@ function clickevent(){
     var textq= input.value;
     fetch(ferbtranslate(textq))
       .then(response => response.json())
-      .then(json => { var translatedText = console.log(json.contents.translated);
+      .then(json => { var translatedText = json.contents.translated;
+                     console.log(json.contents.translated)
                       output.innerText = translatedText;
                     } 
            )
