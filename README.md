@@ -25,7 +25,7 @@
 - Mark 6: Minion, Translation Web App
   - Link: https://antariksh-minion-talk.netlify.app/
 
-  - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/lesson-4-js-in-browser(mark%206)
+  - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/lesson-4-js-in-browser-mark-6
 
 - Mark 7: Ferb Latin, Translation Web App
   - Link: https://antariksh-ferblatin-talk.netlify.app/
