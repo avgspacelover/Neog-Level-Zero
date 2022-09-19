@@ -17,7 +17,7 @@
 
    const hypoLength = Math.sqrt(sumOfSquares);
 
-   output.innerText = "The length of the Hypotenuse is " + hypoLength + ".";
+   output.innerText = "The length of the Hypotenuse is " + hypoLength.toFixed(2) + ".";
  }
 
  
