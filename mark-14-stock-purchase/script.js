@@ -12,6 +12,10 @@
 
 
  function calculateProfitnLoss(initialPrice,quantity,finalPrice){
+  
+    if(initialPrice<=0 || quantity<=0 ||finalPrice<=0 ){
+      output.innerText = "Invalid Input, please enter a non-zero postiive value";
+   }
 
     if(initialPrice>finalPrice){
         
