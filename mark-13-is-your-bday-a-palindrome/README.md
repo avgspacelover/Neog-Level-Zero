@@ -1,4 +1,4 @@
-- Mark 13: Is your Birthday a Paindrome?
+# Mark 13: Is your Birthday a Paindrome?
   
   - Description: Come find out whether your birthday is a palindrome or not
  
