@@ -1,17 +1,8 @@
-# is your birthday lucky?
+# Mark 11: Is your birthday Lucky?
 
-- Take user's complete birthday 
-- And his/her lucky number. 
-- Now, find out if sum of digits of birthday is divisible by the lucky number. 
-- Show the result to user with some graphics. 
+  - Description: Come Find Out how lucky your bithday is!
 
-## additional
+  - Link: https://antariksh-bday-lucky.netlify.app/      
 
-- Create this as a website, put a privacy notice. Say that you're not storing data. 
-- Use the footer to redirect to your social media accounts and your portfolio. 
-
-## hint
-Use [modulo operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) to separate digits.
-
-## stack
-Can use vanillaJS and or React for this. 
+  - Repository: https://github.com/antariksh17/Neog-Level-Zero/tree/main/mark-11-is-your-bday-lucky
+ 
