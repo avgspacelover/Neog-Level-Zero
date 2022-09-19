@@ -14,7 +14,7 @@
  function calculateProfitnLoss(initialPrice,quantity,finalPrice){
   
     if(initialPrice<=0 || quantity<=0 ||finalPrice<=0 ){
-      output.innerText = "Invalid Input, please enter a non-zero postiive value";
+      showOutput("Invalid Input, please enter a non-zero postiive value");
    }
 
     if(initialPrice>finalPrice){
@@ -35,7 +35,7 @@
 
     }  else{
 
-        output.innerText = "No Pain, No Gain and No Gain, No Pain!";
+        showOutput("No Pain, No Gain and No Gain, No Pain!");
 
     }
 
