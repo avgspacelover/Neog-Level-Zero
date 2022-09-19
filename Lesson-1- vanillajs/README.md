@@ -1,5 +1,5 @@
 
-- Mark 1: How Well Do You Know Me? [CLI App]
+#Mark 1: How Well Do You Know Me? [CLI App]
 
   - Description: I wrote a CLI App which quizzes you on how well do you know me
   
