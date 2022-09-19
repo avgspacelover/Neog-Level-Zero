@@ -7,6 +7,9 @@
 
  function calculateSumOfSquares(a,b){
 
+   if(a<=0 || b<=0){
+    output.innerText = "Invalid Input, please enter a non-zero postiive value";
+   }
     const soq = a*a + b*b ;
     return soq;
  }
