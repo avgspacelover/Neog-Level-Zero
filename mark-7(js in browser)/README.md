@@ -1,6 +1,6 @@
 # Mark 7: Ferb Latin, Translation Web App
 
-  - Description: A Vanilla JS application to translate your english to Minion
+  - Description: A Vanilla JS application to translate your english to Ferb-Latin
 
   - Link: https://antariksh-ferblatin-talk.netlify.app/
 
