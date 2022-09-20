@@ -14,13 +14,14 @@
   
    if(a<=0 || b<=0){
     output.innerText = "Invalid Input, please enter a non-zero postiive value";
-   }
+   } else {
 
-    const area = 0.5 *a*b ;
+     const area = 0.5 *a*b ;
 
-    console.log(area);
+     console.log(area);
  
-    output.innerText = "The area of the triangle  is " + area + ".";
+     output.innerText = "The area of the triangle  is " + area + ".";
+   }
   }
 
 
