@@ -21,7 +21,7 @@
         
         var loss = (initialPrice-finalPrice)*quantity;
         
-        var lossPerc = (initialPrice-finalPrice/initialPrice)*100;
+        var lossPerc = ((initialPrice-finalPrice)/initialPrice)*100;
 
         showOutput(`Hey the Loss is ${loss} and the Loss Percentage is ${lossPerc.toFixed(2)}%`);
 
@@ -29,7 +29,7 @@
         
         var profit = (finalPrice-initialPrice)*quantity;
         
-        var profitPerc = (finalPrice-initialPrice/initialPrice)*100;
+        var profitPerc = ((finalPrice-initialPrice)/initialPrice)*100;
 
         showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
 
