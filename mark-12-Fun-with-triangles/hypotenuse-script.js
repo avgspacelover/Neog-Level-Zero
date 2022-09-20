@@ -9,18 +9,22 @@
 
    if(a<=0 || b<=0){
     output.innerText = "Invalid Input, please enter a non-zero postiive value";
+    return 0;
+   }else {
+     const soq = a*a + b*b ;
+     return soq;
    }
-    const soq = a*a + b*b ;
-    return soq;
  }
 
  function calculateHypotenuse(){
 
    const sumOfSquares=  calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
 
-   const hypoLength = Math.sqrt(sumOfSquares);
+   if(sumOfSquares>0){
+    const hypoLength = Math.sqrt(sumOfSquares);
 
-   output.innerText = "The length of the Hypotenuse is " + hypoLength.toFixed(2) + ".";
+    output.innerText = "The length of the Hypotenuse is " + hypoLength.toFixed(2) + ".";
+   }
  }
 
  
