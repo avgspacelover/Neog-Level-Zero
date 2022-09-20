@@ -8,7 +8,7 @@
  function calculateSumOfAllAngles(angle1, angle2, angle3 ){
     let a= Number(angle1), b= Number(angle2), c= Number(angle3);
     if(a<=0 || b<=0 || c<=0){
-      output.innerText = "Invalid Input!";
+      output.innerText = "Invalid Input, please enter a non-zero postiive value"
       return 0;
     }
     const sumofangles =  a + b + c;
