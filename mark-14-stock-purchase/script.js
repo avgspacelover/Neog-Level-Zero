@@ -15,29 +15,30 @@
   
     if(initialPrice<=0 || quantity<=0 ||finalPrice<=0 ){
       showOutput("Invalid Input, please enter a non-zero postiive value");
+   } else {
+
+     if(initialPrice>finalPrice){
+
+         var loss = (initialPrice-finalPrice)*quantity;
+
+         var lossPerc = ((initialPrice-finalPrice)/initialPrice)*100;
+
+         showOutput(`Hey the Loss is ${loss} and the Loss Percentage is ${lossPerc.toFixed(2)}%`);
+
+     }else if(finalPrice>initialPrice){
+
+         var profit = (finalPrice-initialPrice)*quantity;
+
+         var profitPerc = ((finalPrice-initialPrice)/initialPrice)*100;
+
+         showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
+
+     }  else{
+
+         showOutput("No Pain, No Gain and No Gain, No Pain!");
+
+     }
    }
-
-    if(initialPrice>finalPrice){
-        
-        var loss = (initialPrice-finalPrice)*quantity;
-        
-        var lossPerc = ((initialPrice-finalPrice)/initialPrice)*100;
-
-        showOutput(`Hey the Loss is ${loss} and the Loss Percentage is ${lossPerc.toFixed(2)}%`);
-
-    }else if(finalPrice>initialPrice){
-        
-        var profit = (finalPrice-initialPrice)*quantity;
-        
-        var profitPerc = ((finalPrice-initialPrice)/initialPrice)*100;
-
-        showOutput(`Hey the Profit is ${profit} and the Profit Percentage is ${profitPerc.toFixed(2)}%`);
-
-    }  else{
-
-        showOutput("No Pain, No Gain and No Gain, No Pain!");
-
-    }
 
  }
 
