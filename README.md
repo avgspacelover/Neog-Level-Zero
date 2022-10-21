@@ -77,6 +77,8 @@
 
 <strong>Portfolio Website: https://antariksh-neog-portfolio.netlify.app/ </strong>
 
+<strong>Interview Practice Question Solutions:  https://codesandbox.io/s/neog-practice-1-forked-6i062d?file=/src/App.js </strong>
+
 <strong>Linkedin Profile:  https://www.linkedin.com/in/antariksh17/ </strong>
 
 
